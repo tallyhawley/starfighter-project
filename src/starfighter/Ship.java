@@ -14,7 +14,7 @@ public class Ship extends MovingThing
 
 	public Ship()
 	{
-		this(10,10,10,10,10);
+		this(350,300,50,50,5);
 	}
 
 	public Ship(int x, int y)
@@ -40,7 +40,7 @@ public class Ship extends MovingThing
 		}
 		catch(Exception e)
 		{
-			System.out.println("exception: " + e);//feel free to do something here
+			System.out.println(e);//feel free to do something here
 		}
 	}
 

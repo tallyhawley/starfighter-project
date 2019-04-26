@@ -13,7 +13,7 @@ public class Ammo extends MovingThing
 
 	public Ammo()
 	{
-		this(0,0,0);
+		this(0,0,1);
 	}
 
 	public Ammo(int x, int y)
@@ -23,7 +23,7 @@ public class Ammo extends MovingThing
 
 	public Ammo(int x, int y, int s)
 	{
-		super(x,y);
+		super(x,y,5,5);
 		speed = s;
 	}
 
